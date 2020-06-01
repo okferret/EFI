@@ -154,8 +154,6 @@
 	</dict>
 	<key>BootGraphics</key>
 	<dict>
-		<key>EFILoginHiDPI</key>
-		<integer>2</integer>
 		<key>UIScale</key>
 		<integer>2</integer>
 	</dict>
@@ -171,11 +169,11 @@
 		<key>Audio</key>
 		<dict>
 			<key>AFGLowPowerState</key>
-			<false/>
+			<true/>
 			<key>Inject</key>
-			<string>Detect</string>
+			<integer>7</integer>
 			<key>ResetHDA</key>
-			<false/>
+			<true/>
 		</dict>
 		<key>USB</key>
 		<dict>
