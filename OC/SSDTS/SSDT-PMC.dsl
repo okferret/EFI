@@ -7,7 +7,7 @@
 DefinitionBlock ("", "SSDT", 2, "CORP", "PMCR", 0x00001000)
 {
     External (\_SB.PCI0.LPCB, DeviceObj)
-    Scope (_SB.PCI0.LPCB)
+    Scope (\_SB.PCI0.LPCB)
     {
         Device (PMCR)
         {
