@@ -22,7 +22,7 @@
 	<string>1.0</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>iMac19,1-XHC</key>
+		<key>MacPro7,1-XHC</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBMergeNub</string>
@@ -41,28 +41,17 @@
 				<key>kUSBSleepPortCurrentLimit</key>
 				<integer>2100</integer>
 				<key>kUSBSleepPowerSupply</key>
-				<integer>5100</integer>
+				<integer>4700</integer>
 				<key>kUSBWakePortCurrentLimit</key>
 				<integer>2100</integer>
 				<key>kUSBWakePowerSupply</key>
-				<integer>5100</integer>
+				<integer>4700</integer>
 				<key>port-count</key>
 				<data>
 				GgAAAA==
 				</data>
 				<key>ports</key>
 				<dict>
-					<key>HS03</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>0</integer>
-						<key>name</key>
-						<string>HS03</string>
-						<key>port</key>
-						<data>
-						AwAAAA==
-						</data>
-					</dict>
 					<key>HS05</key>
 					<dict>
 						<key>UsbConnector</key>
@@ -132,7 +121,7 @@
 					<key>HS13</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>255</integer>
 						<key>name</key>
 						<string>HS13</string>
 						<key>port</key>
@@ -143,7 +132,7 @@
 					<key>HS14</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>255</integer>
 						<key>name</key>
 						<string>HS14</string>
 						<key>port</key>
@@ -220,7 +209,7 @@
 				</dict>
 			</dict>
 			<key>model</key>
-			<string>iMac19,1</string>
+			<string>MacPro7,1</string>
 		</dict>
 	</dict>
 	<key>OSBundleRequired</key>
