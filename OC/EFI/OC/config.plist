@@ -249,26 +249,6 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
-			<dict>
-				<key>layout-id</key>
-				<data>BwAAAA==</data>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
-			<dict>
-				<key>AAPL,ig-platform-id</key>
-				<data>AwCRPg==</data>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,2,0</string>
-				<key>device_type</key>
-				<string>Display controller</string>
-				<key>framebuffer-patch-enable</key>
-				<data>AQAAAA==</data>
-				<key>hda-gfx</key>
-				<string>onboard-2</string>
-				<key>model</key>
-				<string>Intel UHD Graphics 630 (Desktop 9 Series)</string>
-			</dict>
 			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
@@ -278,26 +258,24 @@
 				<key>device_type</key>
 				<string>Audio device</string>
 				<key>hda-gfx</key>
-				<string>onboard-1</string>
+				<string>onboard-2</string>
 				<key>layout-id</key>
 				<data>BwAAAA==</data>
 				<key>model</key>
 				<string>Cannon Lake PCH cAVS</string>
-				<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
-				<dict>
-					<key>AAPL,slot-name</key>
-					<string>Internal@0,31,3</string>
-					<key>device-id</key>
-					<data>cKEAAA==</data>
-					<key>device_type</key>
-					<string>Audio device</string>
-					<key>hda-gfx</key>
-					<string>onboard-1</string>
-					<key>layout-id</key>
-					<data>BwAAAA==</data>
-					<key>model</key>
-					<string>Cannon Lake PCH cAVS</string>
-				</dict>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+			<dict>
+				<key>AAPL,ig-platform-id</key>
+				<data>AwCRPg==</data>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,2,0</string>
+				<key>device_type</key>
+				<string>Display controller</string>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
+				<key>model</key>
+				<string>Intel UHD Graphics 630 (Desktop 9 Series)</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
