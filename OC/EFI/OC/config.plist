@@ -259,8 +259,6 @@
 				<string>Audio device</string>
 				<key>hda-gfx</key>
 				<string>onboard-2</string>
-				<key>layout-id</key>
-				<data>BwAAAA==</data>
 				<key>model</key>
 				<string>Cannon Lake PCH cAVS</string>
 			</dict>
@@ -914,6 +912,8 @@
 				<data></data>
 				<key>run-efi-updater</key>
 				<string>No</string>
+				<key>boot-args</key>
+				<string>alcid=7</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
