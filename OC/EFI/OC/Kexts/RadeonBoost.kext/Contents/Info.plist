@@ -2,55 +2,37 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>BuildMachineOSBuild</key>
-	<string>17C88</string>
 	<key>CFBundleDevelopmentRegion</key>
-	<string>en</string>
-	<key>CFBundleExecutable</key>
-	<string>PropertyInjector</string>
+	<string>German</string>
+	<key>CFBundleGetInfoString</key>
+	<string>1.0 Copyright © 2020 chinamobilemag.de. All rights reserved.</string>
 	<key>CFBundleIdentifier</key>
-	<string>de.Brumbaer.PropertyInjector</string>
+	<string>de.chinamobilemag.RadeonBoost</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>PropertyInjector</string>
+	<string>RadeonBoost</string>
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
-	<key>CFBundleSupportedPlatforms</key>
-	<array>
-		<string>MacOSX</string>
-	</array>
+	<key>CFBundleSignature</key>
+	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
-	<key>DTCompiler</key>
-	<string>com.apple.compilers.llvm.clang.1_0</string>
-	<key>DTPlatformBuild</key>
-	<string>9C40b</string>
-	<key>DTPlatformVersion</key>
-	<string>GM</string>
-	<key>DTSDKBuild</key>
-	<string>17C76</string>
-	<key>DTSDKName</key>
-	<string>macosx10.13</string>
-	<key>DTXcode</key>
-	<string>0920</string>
-	<key>DTXcodeBuild</key>
-	<string>9C40b</string>
+	<string>1.0</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>RadeonVIIBoost</key>
 		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>de.Brumbaer.PropertyInjector</string>
 			<key>IOClass</key>
-			<string>PropertyInjector</string>
-			<key>IOPCIPrimaryMatch</key>
+			<string>AppleUSBMergeNub</string>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.AppleUSBMergeNub</string>
+			<key>IOPCIMatch</key>
 			<string>0x66AF1002</string>
 			<key>IOProviderClass</key>
 			<string>IOPCIDevice</string>
-			<key>Properties</key>
+			<key>IOProviderMergeProperties</key>
 			<dict>
 				<key>ATY,EFIDriverType</key>
 				<data>Ag==</data>
@@ -88,17 +70,17 @@
 				<true/>
 			</dict>
 		</dict>
-		<key>RX5700Boost</key>
+		<key>RX5700SeriesBoost</key>
 		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>de.Brumbaer.PropertyInjector</string>
 			<key>IOClass</key>
-			<string>PropertyInjector</string>
+			<string>AppleUSBMergeNub</string>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.AppleUSBMergeNub</string>
 			<key>IOPCIPrimaryMatch</key>
 			<string>0x731F1002</string>
 			<key>IOProviderClass</key>
 			<string>IOPCIDevice</string>
-			<key>Properties</key>
+			<key>IOProviderMergeProperties</key>
 			<dict>
 				<key>ATY,EFIDriverType</key>
 				<data>Ag==</data>
@@ -132,15 +114,15 @@
 		</dict>
 		<key>Vega5664Boost</key>
 		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>de.Brumbaer.PropertyInjector</string>
 			<key>IOClass</key>
-			<string>PropertyInjector</string>
+			<string>AppleUSBMergeNub</string>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.AppleUSBMergeNub</string>
 			<key>IOPCIPrimaryMatch</key>
 			<string>0x687F1002</string>
 			<key>IOProviderClass</key>
 			<string>IOPCIDevice</string>
-			<key>Properties</key>
+			<key>IOProviderMergeProperties</key>
 			<dict>
 				<key>ATY,EFIDriverType</key>
 				<data>Ag==</data>
@@ -168,17 +150,55 @@
 				<data>0gAAAMwAAADGAAAAwAAAALoAAAC0AAAAqgAAAKAAAACWAAAAjAAAAIIAAAB4AAAAbgAAAGQAAABaAAAAHgAAAA==</data>
 			</dict>
 		</dict>
-		<key>RX580Boost</key>
+		<key>VegaFrontierBoost</key>
 		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>de.Brumbaer.PropertyInjector</string>
 			<key>IOClass</key>
-			<string>PropertyInjector</string>
+			<string>AppleUSBMergeNub</string>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.AppleUSBMergeNub</string>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0x68631002</string>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+			<key>IOProviderMergeProperties</key>
+			<dict>
+				<key>ATY,EFIDriverType</key>
+				<data>Ag==</data>
+				<key>ATY,EFIEnabledMode</key>
+				<data>AQ==</data>
+				<key>ATY,EFIVersion</key>
+				<string>01.00.3180</string>
+				<key>ATY,EFIVersionB</key>
+				<string>113-C944A1XT-014</string>
+				<key>PP_ACDCGpioDisabled</key>
+				<integer>0</integer>
+				<key>PP_DiDtSQPatternWidthOverride</key>
+				<integer>14</integer>
+				<key>PP_DiDtSQStallPatternOverride</key>
+				<integer>16383</integer>
+				<key>PP_DisableDIDT</key>
+				<integer>1</integer>
+				<key>PP_DisablePCCLimitControl</key>
+				<integer>1</integer>
+				<key>PP_PhmUseDummyBackEnd</key>
+				<integer>0</integer>
+				<key>CFG_NVV</key>
+				<integer>2</integer>
+				<key>CFG_PTPL2_TBL</key>
+				<data>0gAAAMwAAADGAAAAwAAAALoAAAC0AAAAqgAAAKAAAACWAAAAjAAAAIIAAAB4AAAAbgAAAGQAAABaAAAAHgAAAA==</data>
+			</dict>
+		</dict>
+		<key>RX580590Boost</key>
+		<dict>
+			<key>IOClass</key>
+			<string>AppleUSBMergeNub</string>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.AppleUSBMergeNub</string>
 			<key>IOPCIPrimaryMatch</key>
 			<string>0x67DF1002</string>
 			<key>IOProviderClass</key>
 			<string>IOPCIDevice</string>
-			<key>Properties</key>
+			<key>IOProviderMergeProperties</key>
 			<dict>
 				<key>ATY,EFIDriverType</key>
 				<data>Ag==</data>
@@ -211,8 +231,6 @@
 			</dict>
 		</dict>
 	</dict>
-	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2017 Brumbaer. All rights reserved.</string>
 	<key>OSBundleLibraries</key>
 	<dict>
 		<key>com.apple.kpi.bsd</key>
