@@ -34,11 +34,19 @@
 		</data>
 		<key>Kexts\AppleALC.kext\Contents\Info.plist</key>
 		<data>
-		10gWxb/mztMG7HIeKYoixv5WIC9JrLNztaaYxQacx5Y=
+		BG6ti/tfZPNPuGIM1KFA10c4WRFaGFX+JY1r1MvW8xA=
 		</data>
 		<key>Kexts\AppleALC.kext\Contents\MacOS\AppleALC</key>
 		<data>
-		kLVbbTLWDiEtiDAyABXFdxIEjFDyAx/cxDQcHZnbZAY=
+		ejRH0fUrWen5oNJTbKj6vFC5/preiQsq3Irwu0GwShc=
+		</data>
+		<key>Kexts\CpuTscSync.kext\Contents\Info.plist</key>
+		<data>
+		vxUROc/8qWFHxU0Y/vU/0uZm67kMnI1/uK3pChXKwTM=
+		</data>
+		<key>Kexts\CpuTscSync.kext\Contents\MacOS\CpuTscSync</key>
+		<data>
+		6cOSUTJeod1/omf/K269MsHMmoK4UJQwic/rzOJT//0=
 		</data>
 		<key>Kexts\IntelMausi.kext\Contents\Info.plist</key>
 		<data>
@@ -70,11 +78,11 @@
 		</data>
 		<key>Kexts\RestrictEvents.kext\Contents\Info.plist</key>
 		<data>
-		0HFx8Q29j9kRQRH8tixFe+Pmjxu2oA1y9LTtVEZ/jig=
+		o1vvJ8p2AXEz69ZFRYWARdFb+2cO1aXSPSyabJjM/58=
 		</data>
 		<key>Kexts\RestrictEvents.kext\Contents\MacOS\RestrictEvents</key>
 		<data>
-		v75bHtP1Tm31yUp7GXXmgUXaGqhsvx6Wtnu8fDCpLhs=
+		NrsFj2Vpy6hD5LpTjMaAkPcrh2Ulx/hCln1hO5sgbHE=
 		</data>
 		<key>Kexts\SMCProcessor.kext\Contents\Info.plist</key>
 		<data>
@@ -106,15 +114,15 @@
 		</data>
 		<key>Kexts\WhateverGreen.kext\Contents\Info.plist</key>
 		<data>
-		6hd7hyBMpYWmqvgSvgnuhKcfxxaXVO//OuY7IWr9hRw=
+		C53s1rVZTxyeM3uG4th/bJay3Z5V9hbb1FgqBsFyuF0=
 		</data>
 		<key>Kexts\WhateverGreen.kext\Contents\MacOS\WhateverGreen</key>
 		<data>
-		0Yy4TLbpH4NKf1eqMDLNOZHILv9EcOm2AoL6lO5SCv0=
+		09VoNAglSVkXQ+GF7dbUSWuCZd/qYYl5oqLu5vgPVuA=
 		</data>
 		<key>config.plist</key>
 		<data>
-		AMrBiEFcI5oF4DEP1HXzzr3V7O/ZoshMGlXdNyf9x5A=
+		ky5dbw7rF4fTSIXhB2jUXkwit7HlTs0pEmsy8Lcg62s=
 		</data>
 	</dict>
 	<key>Version</key>
