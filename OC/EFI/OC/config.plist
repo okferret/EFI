@@ -458,24 +458,6 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>CpuTscSync.kext</string>
-                    <key>Comment</key>
-                    <string>V1.0.5</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/CpuTscSync</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
                     <string>SMCProcessor.kext</string>
                     <key>Comment</key>
                     <string>V1.2.7</string>
@@ -1186,6 +1168,8 @@
                 <false/>
                 <key>ProvideConsoleGop</key>
                 <true/>
+                <key>ReconnectGraphicsOnConnect</key>
+                <false/>
                 <key>ReconnectOnResChange</key>
                 <false/>
                 <key>ReplaceTabWithSpace</key>
@@ -1248,6 +1232,8 @@
                 <false/>
                 <key>EnableVectorAcceleration</key>
                 <true/>
+                <key>EnableVmx</key>
+                <false/>
                 <key>ExitBootServicesDelay</key>
                 <integer>0</integer>
                 <key>ForceOcWriteFlash</key>
