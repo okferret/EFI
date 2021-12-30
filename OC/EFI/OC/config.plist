@@ -257,30 +257,27 @@
                 <dict>
                     <key>AAPL,slot-name</key>
                     <string>Internal@0,31,3</string>
+                    <key>device-id</key>
+                    <data>cKEAAA==</data>
                     <key>device_type</key>
                     <string>Audio device</string>
                     <key>hda-gfx</key>
-                    <string>onboard-2</string>
+                    <string>onboard-1</string>
                     <key>layout-id</key>
                     <data>BwAAAA==</data>
                     <key>model</key>
-                    <string>Sunrise Point-LP HD Audio</string>
-                </dict>
-                <key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
-                <dict>
-                    <key>layout-id</key>
-                    <data>BwAAAA==</data>
+                    <string>Cannon Lake PCH cAVS</string>
                 </dict>
                 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
                 <dict>
                     <key>AAPL,ig-platform-id</key>
-                    <data>AwCRPg==</data>
+                    <data>CQClPg==</data>
                     <key>AAPL,slot-name</key>
                     <string>Internal@0,2,0</string>
                     <key>device_type</key>
                     <string>Display controller</string>
                     <key>hda-gfx</key>
-                    <string>onboard-1</string>
+                    <string>onboard-2</string>
                     <key>model</key>
                     <string>Intel CoffeeLake-S GT2 [UHD Graphics 630]</string>
                 </dict>
@@ -1119,9 +1116,11 @@
                 <integer>0</integer>
                 <key>AudioDevice</key>
                 <string>PciRoot(0x0)/Pci(0x1b,0x0)</string>
-                <key>AudioOut</key>
+                <key>AudioOutMask</key>
                 <integer>0</integer>
                 <key>AudioSupport</key>
+                <false/>
+                <key>DisconnectHda</key>
                 <false/>
                 <key>MinimumVolume</key>
                 <integer>20</integer>
