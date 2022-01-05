@@ -271,11 +271,13 @@
                 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
                 <dict>
                     <key>AAPL,ig-platform-id</key>
-                    <data>CQClPg==</data>
+                    <data>AwCRPg==</data>
                     <key>AAPL,slot-name</key>
                     <string>Internal@0,2,0</string>
                     <key>device_type</key>
                     <string>Display controller</string>
+                    <key>framebuffer-patch-enable</key>
+                    <data>AQAAAA==</data>
                     <key>hda-gfx</key>
                     <string>onboard-2</string>
                     <key>model</key>
@@ -1105,6 +1107,12 @@
                 <integer>50</integer>
                 <key>KeySubsequentDelay</key>
                 <integer>5</integer>
+                <key>PointerPollMask</key>
+                <integer>-1</integer>
+                <key>PointerPollMax</key>
+                <integer>80</integer>
+                <key>PointerPollMin</key>
+                <integer>10</integer>
                 <key>PointerSpeedDiv</key>
                 <integer>1</integer>
                 <key>PointerSpeedMul</key>
@@ -1117,7 +1125,7 @@
                 <key>AudioDevice</key>
                 <string>PciRoot(0x0)/Pci(0x1b,0x0)</string>
                 <key>AudioOutMask</key>
-                <integer>0</integer>
+                <integer>15</integer>
                 <key>AudioSupport</key>
                 <false/>
                 <key>DisconnectHda</key>
@@ -1156,6 +1164,16 @@
                     <true/>
                     <key>Path</key>
                     <string>OpenRuntime.efi</string>
+                </dict>
+                <dict>
+                    <key>Arguments</key>
+                    <string></string>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <false/>
+                    <key>Path</key>
+                    <string>OpenCanopy.efi</string>
                 </dict>
             </array>
             <key>Input</key>
