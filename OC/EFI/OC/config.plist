@@ -255,29 +255,13 @@
             <dict>
                 <key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
                 <dict>
-                    <key>AAPL,slot-name</key>
-                    <string>Internal@0,31,3</string>
-                    <key>device_type</key>
-                    <string>Audio device</string>
-                    <key>hda-gfx</key>
-                    <string>onboard-2</string>
                     <key>layout-id</key>
                     <data>BwAAAA==</data>
-                    <key>model</key>
-                    <string>100 Series/C230 Series Chipset Family HD Audio Controller</string>
                 </dict>
                 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
                 <dict>
                     <key>AAPL,ig-platform-id</key>
-                    <data>CQClPg==</data>
-                    <key>AAPL,slot-name</key>
-                    <string>Internal@0,2,0</string>
-                    <key>device_type</key>
-                    <string>Display controller</string>
-                    <key>hda-gfx</key>
-                    <string>onboard-1</string>
-                    <key>model</key>
-                    <string>Intel CoffeeLake-S GT2 [UHD Graphics 630]</string>
+                    <data>AwCRPg==</data>
                 </dict>
             </dict>
             <key>Delete</key>
@@ -329,7 +313,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.7.3</string>
+                    <string>V1.7.4</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
