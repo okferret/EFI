@@ -249,13 +249,29 @@
             <dict>
                 <key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
                 <dict>
+                    <key>AAPL,slot-name</key>
+                    <string>Internal@0,31,3</string>
+                    <key>device_type</key>
+                    <string>Audio device</string>
+                    <key>hda-gfx</key>
+                    <string>onboard-2</string>
                     <key>layout-id</key>
                     <data>BwAAAA==</data>
+                    <key>model</key>
+                    <string>Cannon Lake PCH cAVS</string>
                 </dict>
                 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
                 <dict>
                     <key>AAPL,ig-platform-id</key>
                     <data>AwCRPg==</data>
+                    <key>AAPL,slot-name</key>
+                    <string>Internal@0,2,0</string>
+                    <key>device_type</key>
+                    <string>Display controller</string>
+                    <key>hda-gfx</key>
+                    <string>onboard-1</string>
+                    <key>model</key>
+                    <string>Intel CoffeeLake-S GT2 [UHD Graphics 630]</string>
                 </dict>
             </dict>
             <key>Delete</key>
@@ -949,7 +965,7 @@
                 <key>ScanPolicy</key>
                 <integer>0</integer>
                 <key>SecureBootModel</key>
-                <string>Default</string>
+                <string>j160</string>
                 <key>Vault</key>
                 <string>Optional</string>
             </dict>
