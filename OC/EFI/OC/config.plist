@@ -1205,7 +1205,7 @@
                     <key>LoadEarly</key>
                     <false/>
                     <key>Path</key>
-                    <string>OpenCanopy.efi</string>
+                    <string>HfsPlus.efi</string>
                 </dict>
                 <dict>
                     <key>Arguments</key>
@@ -1217,7 +1217,7 @@
                     <key>LoadEarly</key>
                     <false/>
                     <key>Path</key>
-                    <string>OpenHfsPlus.efi</string>
+                    <string>OpenCanopy.efi</string>
                 </dict>
                 <dict>
                     <key>Arguments</key>
