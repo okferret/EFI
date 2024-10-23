@@ -255,7 +255,7 @@
         <dict>
             <key>Add</key>
             <dict>
-                <key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
+                <key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
                 <dict>
                     <key>layout-id</key>
                     <data>BwAAAA==</data>
@@ -264,6 +264,8 @@
                 <dict>
                     <key>AAPL,ig-platform-id</key>
                     <data>AwCRPg==</data>
+                    <key>framebuffer-patch-enable</key>
+                    <data>AQAAAA==</data>
                 </dict>
             </dict>
             <key>Delete</key>
@@ -939,7 +941,7 @@
                 <key>ScanPolicy</key>
                 <integer>0</integer>
                 <key>SecureBootModel</key>
-                <string>Disabled</string>
+                <string>Default</string>
                 <key>Vault</key>
                 <string>Optional</string>
             </dict>
