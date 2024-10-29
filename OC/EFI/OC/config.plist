@@ -461,7 +461,7 @@
                     <key>BundlePath</key>
                     <string>SMCRadeonSensors.kext</string>
                     <key>Comment</key>
-                    <string>V2.0.0</string>
+                    <string>V2.3.0</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
