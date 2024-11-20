@@ -20,6 +20,14 @@
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
+                    <string>SSDT-HPET.aml</string>
+                </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
                     <string>SSDT-PLUG.aml</string>
                 </dict>
                 <dict>
@@ -37,6 +45,14 @@
                     <true/>
                     <key>Path</key>
                     <string>SSDT-RTCAWAC.aml</string>
+                </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>SSDT-USB-Reset.aml</string>
                 </dict>
                 <dict>
                     <key>Comment</key>
