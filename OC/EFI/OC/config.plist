@@ -52,14 +52,6 @@
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
-                    <string>SSDT-USB-Reset.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
                     <string>SSDT-USBX.aml</string>
                 </dict>
             </array>
@@ -280,8 +272,6 @@
                 <dict>
                     <key>AAPL,ig-platform-id</key>
                     <data>AwCRPg==</data>
-                    <key>framebuffer-patch-enable</key>
-                    <data>AQAAAA==</data>
                 </dict>
             </dict>
             <key>Delete</key>
@@ -957,7 +947,7 @@
                 <key>ScanPolicy</key>
                 <integer>0</integer>
                 <key>SecureBootModel</key>
-                <string>j160</string>
+                <string>Default</string>
                 <key>Vault</key>
                 <string>Optional</string>
             </dict>
@@ -1086,7 +1076,7 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string>F5K018310GUK3F7A8</string>
+                <string>C02037902CDLNV9UE</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
@@ -1098,11 +1088,11 @@
                 <key>SystemMemoryStatus</key>
                 <string>Auto</string>
                 <key>SystemProductName</key>
-                <string>MacPro7,1</string>
+                <string>iMac19,1</string>
                 <key>SystemSerialNumber</key>
-                <string>F5KCNWY3P7QM</string>
+                <string>C02DDWZZJV3Q</string>
                 <key>SystemUUID</key>
-                <string>A5C2F443-4731-40FC-A682-048EDE967084</string>
+                <string>BA7052B9-8164-4D66-AA68-FC323CAB850B</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
