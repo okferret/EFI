@@ -226,7 +226,7 @@
                 <key>EnableWriteUnprotector</key>
                 <false/>
                 <key>FixupAppleEfiImages</key>
-                <true/>
+                <false/>
                 <key>ForceBooterSignature</key>
                 <false/>
                 <key>ForceExitBootServices</key>
