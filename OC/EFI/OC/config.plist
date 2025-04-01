@@ -933,7 +933,7 @@
                 <key>ScanPolicy</key>
                 <integer>0</integer>
                 <key>SecureBootModel</key>
-                <string>j160</string>
+                <string>Default</string>
                 <key>Vault</key>
                 <string>Optional</string>
             </dict>
@@ -1028,8 +1028,6 @@
                     <key>DefaultBackgroundColor</key>
                     <data>AAAAAA==</data>
                 </dict>
-                <key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
-                <dict/>
                 <key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
                 <dict>
                     <key>SystemAudioVolume</key>
